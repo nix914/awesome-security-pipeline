@@ -11,6 +11,8 @@ Security shouldn't be an afterthought. This list organizes battle-tested securit
 
 - [Pre-commit & Secrets Detection](#pre-commit--secrets-detection)
 - [SBOM Generation](#sbom-generation)
+- [Artifact Signing & Verification](#artifact-signing--verification)
+- [Supply Chain Compliance](#supply-chain-compliance)
 - [Software Composition Analysis (SCA)](#software-composition-analysis-sca)
 - [Static Application Security Testing (SAST)](#static-application-security-testing-sast)
   - [Multi-language](#multi-language)
@@ -20,6 +22,8 @@ Security shouldn't be an afterthought. This list organizes battle-tested securit
   - [Image Scanning](#image-scanning)
   - [Runtime Security](#runtime-security)
 - [Kubernetes Security](#kubernetes-security)
+- [Policy as Code](#policy-as-code)
+- [Secret Management](#secret-management)
 - [API & Dynamic Testing (DAST)](#api--dynamic-testing-dast)
 - [Cloud Security](#cloud-security)
 - [Reading the Badges](#reading-the-badges)
@@ -38,6 +42,7 @@ Catch secrets and credentials before they enter your repository.
 - [git-secrets](https://github.com/awslabs/git-secrets) - Prevent committing AWS credentials and secrets. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/awslabs/git-secrets) ![Last Commit](https://img.shields.io/github/last-commit/awslabs/git-secrets)
 - [talisman](https://github.com/thoughtworks/talisman) - Pre-push and pre-commit hooks for secrets detection. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/thoughtworks/talisman) ![Last Commit](https://img.shields.io/github/last-commit/thoughtworks/talisman)
 - [whispers](https://github.com/Skyscanner/whispers) - Identify hardcoded secrets in static code analysis. ![Archived](https://img.shields.io/badge/status-archived-lightgrey) ![Stars](https://img.shields.io/github/stars/Skyscanner/whispers) ![Last Commit](https://img.shields.io/github/last-commit/Skyscanner/whispers)
+- [pre-commit](https://github.com/pre-commit/pre-commit) - Framework to manage multi-language pre-commit hooks. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/pre-commit/pre-commit) ![Last Commit](https://img.shields.io/github/last-commit/pre-commit/pre-commit)
 
 ## SBOM Generation
 
@@ -49,6 +54,19 @@ Generate Software Bill of Materials for supply chain visibility.
 - [spdx-sbom-generator](https://github.com/opensbom-generator/spdx-sbom-generator) - Generate SPDX format SBOMs from source code. ![Archived](https://img.shields.io/badge/status-archived-lightgrey) ![Stars](https://img.shields.io/github/stars/opensbom-generator/spdx-sbom-generator) ![Last Commit](https://img.shields.io/github/last-commit/opensbom-generator/spdx-sbom-generator)
 - [tern](https://github.com/tern-tools/tern) - Software composition analysis for container images. ![Unmaintained](https://img.shields.io/badge/status-unmaintained-red) ![Stars](https://img.shields.io/github/stars/tern-tools/tern) ![Last Commit](https://img.shields.io/github/last-commit/tern-tools/tern)
 - [sbom-tool](https://github.com/microsoft/sbom-tool) - Microsoft's scalable SBOM generation tool. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/microsoft/sbom-tool) ![Last Commit](https://img.shields.io/github/last-commit/microsoft/sbom-tool)
+
+## Artifact Signing & Verification
+
+Sign and verify container images and artifacts for supply chain security.
+
+- [cosign](https://github.com/sigstore/cosign) - Sign and verify container images. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/sigstore/cosign) ![Last Commit](https://img.shields.io/github/last-commit/sigstore/cosign)
+- [notation](https://github.com/notaryproject/notation) - CNCF signing and verification standard (Notary Project). ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/notaryproject/notation) ![Last Commit](https://img.shields.io/github/last-commit/notaryproject/notation)
+
+## Supply Chain Compliance
+
+Audit and verify supply chain security against industry benchmarks.
+
+- [chain-bench](https://github.com/aquasecurity/chain-bench) - Audit supply chain against CIS benchmarks. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/aquasecurity/chain-bench) ![Last Commit](https://img.shields.io/github/last-commit/aquasecurity/chain-bench)
 
 ## Software Composition Analysis (SCA)
 
@@ -152,6 +170,22 @@ Secure Kubernetes clusters, manifests, and workloads.
 - [trivy-operator](https://github.com/aquasecurity/trivy-operator) - Kubernetes-native security reports. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/aquasecurity/trivy-operator) ![Last Commit](https://img.shields.io/github/last-commit/aquasecurity/trivy-operator)
 - [kubiscan](https://github.com/cyberark/KubiScan) - Scan Kubernetes RBAC for risky permissions. ![Stale](https://img.shields.io/badge/status-stale-yellow) ![Stars](https://img.shields.io/github/stars/cyberark/KubiScan) ![Last Commit](https://img.shields.io/github/last-commit/cyberark/KubiScan)
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) - Hunt for security weaknesses in Kubernetes clusters. ![Unmaintained](https://img.shields.io/badge/status-unmaintained-red) ![Stars](https://img.shields.io/github/stars/aquasecurity/kube-hunter) ![Last Commit](https://img.shields.io/github/last-commit/aquasecurity/kube-hunter)
+
+## Policy as Code
+
+Define and enforce security policies as code across your infrastructure.
+
+- [opa](https://github.com/open-policy-agent/opa) - Open Policy Agent, industry standard for policy as code. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/open-policy-agent/opa) ![Last Commit](https://img.shields.io/github/last-commit/open-policy-agent/opa)
+- [gatekeeper](https://github.com/open-policy-agent/gatekeeper) - OPA for Kubernetes admission control. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/open-policy-agent/gatekeeper) ![Last Commit](https://img.shields.io/github/last-commit/open-policy-agent/gatekeeper)
+- [datree](https://github.com/datreeio/datree) - Prevent Kubernetes misconfigurations. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/datreeio/datree) ![Last Commit](https://img.shields.io/github/last-commit/datreeio/datree)
+
+## Secret Management
+
+Securely manage and distribute secrets in Kubernetes and GitOps workflows.
+
+- [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) - Encrypt secrets locally, decrypt only in cluster. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/bitnami-labs/sealed-secrets) ![Last Commit](https://img.shields.io/github/last-commit/bitnami-labs/sealed-secrets)
+- [external-secrets](https://github.com/external-secrets/external-secrets) - Sync secrets from AWS/Vault/Azure into Kubernetes. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/external-secrets/external-secrets) ![Last Commit](https://img.shields.io/github/last-commit/external-secrets/external-secrets)
+- [sops](https://github.com/getsops/sops) - Editor-transparent encryption for Git files. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/getsops/sops) ![Last Commit](https://img.shields.io/github/last-commit/getsops/sops)
 
 ## API & Dynamic Testing (DAST)
 
