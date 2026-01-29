@@ -54,6 +54,7 @@ Generate Software Bill of Materials for supply chain visibility.
 - [spdx-sbom-generator](https://github.com/opensbom-generator/spdx-sbom-generator) - Generate SPDX format SBOMs from source code. ![Archived](https://img.shields.io/badge/status-archived-lightgrey) ![Stars](https://img.shields.io/github/stars/opensbom-generator/spdx-sbom-generator) ![Last Commit](https://img.shields.io/github/last-commit/opensbom-generator/spdx-sbom-generator)
 - [tern](https://github.com/tern-tools/tern) - Software composition analysis for container images. ![Unmaintained](https://img.shields.io/badge/status-unmaintained-red) ![Stars](https://img.shields.io/github/stars/tern-tools/tern) ![Last Commit](https://img.shields.io/github/last-commit/tern-tools/tern)
 - [sbom-tool](https://github.com/microsoft/sbom-tool) - Microsoft's scalable SBOM generation tool. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/microsoft/sbom-tool) ![Last Commit](https://img.shields.io/github/last-commit/microsoft/sbom-tool)
+- [sbomlyze](https://github.com/rezmoss/sbomlyze) - SBOM diff and analysis tool for supply chain drift detection. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/rezmoss/sbomlyze) ![Last Commit](https://img.shields.io/github/last-commit/rezmoss/sbomlyze)
 
 ## Artifact Signing & Verification
 
