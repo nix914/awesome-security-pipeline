@@ -80,6 +80,7 @@ Scan dependencies for known vulnerabilities.
 - [bomber](https://github.com/devops-kung-fu/bomber) - Scan SBOMs for vulnerabilities. ![Stale](https://img.shields.io/badge/status-stale-yellow) ![Stars](https://img.shields.io/github/stars/devops-kung-fu/bomber) ![Last Commit](https://img.shields.io/github/last-commit/devops-kung-fu/bomber)
 - [vet](https://github.com/safedep/vet) - Policy-driven dependency vetting tool. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/safedep/vet) ![Last Commit](https://img.shields.io/github/last-commit/safedep/vet)
 - [deps.dev](https://deps.dev) - Google's dependency insights service (API/Website).
+- [safe-chain](https://github.com/AikidoSec/safe-chain) - Block malicious packages during npm/pip install. ![Active](https://img.shields.io/badge/status-active-brightgreen) ![Stars](https://img.shields.io/github/stars/AikidoSec/safe-chain) ![Last Commit](https://img.shields.io/github/last-commit/AikidoSec/safe-chain)
 
 ## Static Application Security Testing (SAST)
 
